@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+}
+
+
+.hero-container {
+    height: 25rem;
+    background-color: rgb(3, 23, 46);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.hero-content {
+    padding-right: 5rem;
+    width: 50rem;
+    font-family: sans-serif;
+
+}
+
+.hero-title {
+    color: white;
+    font-size: 60px;
+    font-weight: bold;
+    margin: 0%;
+}
+
+.hero-text {
+    color: white;
+    font-size: 20px;
+}
+
+.hero-image {
+    height: 18rem;
+    border-radius: 0.5rem;
+}

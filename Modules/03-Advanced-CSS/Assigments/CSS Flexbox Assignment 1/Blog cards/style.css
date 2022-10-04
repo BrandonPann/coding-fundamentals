@@ -1,0 +1,93 @@
+html {
+    font-family: sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card-container {
+    cursor: pointer;
+    /* background-color: rgb(192, 192, 192); */
+    width: 400px;
+}
+
+.card-container:hover {
+    opacity: 95%;
+    transition: all;
+}
+
+.card-img {
+    width: 380px;
+    padding: 0.5rem;
+    border-radius: 1rem;
+}
+
+ul {
+    margin: 0%;
+    padding: 1rem;
+    display: flex;
+}
+
+li {
+    cursor: pointer;
+    color: white;
+    list-style-type: none;
+    width: 45px;
+    background-color: blueviolet;
+    border-radius: 1rem;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+li:hover {
+    border-radius: 999px;
+    transition: all;
+}
+
+.card-text {
+    font-weight: bold;
+    padding-left: 1rem;
+}
+
+.card-footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.sigma {
+    display: flex;
+}
+
+.sigma-logo {
+    width: 32px;
+}
+
+.sigma-text {
+    padding-left: 0.5rem;
+}
+
+.card-details {
+    display: flex;
+}
+
+.card-date {
+    padding-right: 10px;
+    color: rgb(27, 27, 27);
+}
+
+.card-time {
+    color: rgb(27, 27, 27);
+}
+
+@media (max-width:1024px) {
+    body {
+        flex-direction: column;
+    }
+}
