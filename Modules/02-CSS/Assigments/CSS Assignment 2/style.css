@@ -1,0 +1,18 @@
+.breadcrumb {  
+    background-color: lightgray;
+    padding: 4px;
+    text-decoration: none;
+  }
+
+.breadcrumb li {
+    display: inline;
+    padding: 5px;
+  }
+  
+.breadcrumb li a {
+  color: blue;
+  }
+  
+  /* add a CSS selector that selects all list elements except for 1st one */
+  /* add "/" before each selected list  */
+  /* add text color and padding */
