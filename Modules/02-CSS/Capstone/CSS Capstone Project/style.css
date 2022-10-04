@@ -1,0 +1,45 @@
+body {
+  background-color: gray;
+}
+
+@media (max-width:640px) {
+  body {
+    background-color: red;
+  }
+
+  .tablet {
+    visibility: hidden;
+  }
+
+  .desktop {
+    visibility: hidden;
+  }
+}
+
+@media (min-width:640px) {
+  body {
+    background-color:green;
+  }
+
+  .mobile {
+    visibility: hidden;
+  }
+
+  .desktop {
+    visibility: hidden;
+  }
+}
+
+@media (min-width:1024px) {
+  body {
+    background-color:blue;
+  }
+
+  .tablet {
+    visibility: hidden;
+  }
+
+  .desktop {
+    visibility: visible;
+  }
+ }
