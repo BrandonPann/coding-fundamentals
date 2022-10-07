@@ -1,0 +1,196 @@
+html, body {
+    margin: 0%;
+    padding: 0;
+    font-size: medium;
+    font-family: sans-serif;
+    font-weight: 500;
+    height: 1200px;
+}
+
+nav {
+    margin: 0%;
+    height: 100px;
+    background-color: rgb(248, 248, 248);
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.4);
+    position: sticky;
+}
+
+.card-container {
+    display: flex;
+}
+
+.nav-container {
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-a {
+    display: flex;
+}
+
+.nav-logo {
+    height: 70px;
+    padding-left: 25px;
+    padding-top: 10px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+}
+
+li {
+    list-style-type: none;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+}
+
+.nav-b {
+    display: flex;
+    padding-right: 30px;
+    padding-top: 25px;
+}
+
+.nav-login {
+    height: 20px;
+    border: 1px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 0.5rem;
+    background-color: rgb(235, 235, 235);
+}
+
+.nav-b :hover {
+    background-color: rgb(202, 202, 202);
+}
+
+main {
+    margin: 0%;
+    height: 300px;
+    background-color: rgb(248, 248, 248);
+}
+
+.main-container {
+    margin: 0%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-left: 30px;
+    width: 600px;
+
+}
+
+h1 {
+    margin: 0%;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+    width: 1000px;
+
+}
+
+.card-left {
+    color: white;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    width: 400px;
+    height: 650px;
+    background-color: rgb(87, 161, 133);
+
+}
+
+.card-title {
+    font-weight: 100;
+}
+
+.phone-icon {
+    width: 20px;
+    padding-right: 0.5rem;
+}
+
+.card-call {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.mail-icon {
+    width: 20px;
+    padding-right: 0.5rem;
+}
+
+.card-socials {
+    display: flex;
+    padding-top: 1rem;
+    font-size: larger;
+}
+
+.fa-facebook, .fa-twitter {
+    padding-right: 5rem;
+}
+
+.fa-facebook, .fa-twitter{
+    color: rgb(209, 209, 209);
+}
+
+.fa-instagram {
+    color: rgb(209, 209, 209);
+}
+
+
+.card-right {
+    padding-left: 2rem;
+    padding-top: 2rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
+input {
+    width: 100%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid gray;
+    border-radius: 0.5rem;
+  }
+
+  
+
+label,
+textarea {
+    font-size: .8rem;
+    letter-spacing: 1px;
+}
+textarea {
+    padding: 10px;
+    max-width: 100%;
+    line-height: 1.5;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-shadow: 1px 1px 1px #999;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.button {
+    padding: 1rem;
+    display: flex;
+    justify-content: end;
+}
